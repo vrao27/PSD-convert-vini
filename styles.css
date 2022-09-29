@@ -22,7 +22,7 @@
 
 .part6 {
     display: flex;
-    background-color: rgb(246, 246, 246);
+    background-color: #ffffff;
     max-width: 100%;
     max-height: 200%;
 }
@@ -89,6 +89,11 @@ textarea {
 
 }
 
+.logo {
+    margin: 5px 5px 5px 5px;
+    padding: 10px 5px;
+}
+
 
 /*section7 styling*/
 
@@ -147,11 +152,17 @@ h3 {
 }
 
 .botnav {
-    display: flex;
+    display: inline-flex;
     font-size: 20px;
+    list-style: none;
+    font-family: 'Roboto';
     color: white;
-    width: 50px;
-    margin: 0 auto;
-    padding-top: 300px;
-    padding-right: 200px;
+    padding: 0px 0px;
+}
+
+li {
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: white;
+    margin: 10px;
 }
