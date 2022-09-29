@@ -1,0 +1,82 @@
+.news-and-client {
+  background-size: 100% 100%;
+  height: 685px;
+  text-align: center;
+  color: black;
+  width: 1600px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.news-and-client-container {
+  display: grid;
+  width: 950px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.news-card-container {
+  grid-column: 1/6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.client-card-container {
+  grid-column: 8/13;
+  text-align: left;
+}
+
+.client-card-logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.client-card-logos {
+  width: 150px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.client-card-logos img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.news-input-section input {
+  width: 460px;
+  height: 44px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: light;
+  font-size: 14px;
+  color: #413d4b85;
+  padding-left: 20px;
+}
+
+.news-input-section textarea {
+  width: 460px;
+  height: 200px;
+  margin-bottom: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: light;
+  font-size: 14px;
+  color: #413d4b85;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.news-card-container button {
+  background: transparent;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+  color: #00e0d0;
+  border: 1px solid #00e0d0;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
